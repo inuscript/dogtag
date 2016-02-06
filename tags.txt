@@ -67,6 +67,7 @@ puppylover
 smalldog
 terrier
 terriers
+lovedog
 terrierstagram
 topdogphoto
 weeklyfluff
