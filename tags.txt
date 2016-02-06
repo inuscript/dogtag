@@ -41,6 +41,7 @@ instapuppy
 instaterrier
 life
 love
+lovedog
 lovedogs
 lovepuppies
 nature
@@ -67,7 +68,6 @@ puppylover
 smalldog
 terrier
 terriers
-lovedog
 terrierstagram
 topdogphoto
 weeklyfluff
