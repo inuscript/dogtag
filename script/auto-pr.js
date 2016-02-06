@@ -18,7 +18,7 @@ const targetFiles = [
 ]
 
 var user = "inuscript"
-var repo = "randomtag"
+var repo = "dogtag"
 var token = GITHUB_ACCESS_TOKEN
 var toBranch = `auto-pr-${CIRCLE_BUILD_NUM}`
 
