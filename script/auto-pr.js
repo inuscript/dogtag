@@ -33,7 +33,7 @@ const files = targetFiles.map( (file) => {
 function sendPRIfNeed(pr, files, toBranch){
   pr.filterDiffFiles(files).then( (files) => {
     if(files.length == 0){
-      return Promise.reject("Files is Not change")
+      return Promise.reject("Files is Not change") // TODO
     }
     return files
   }).then( (files) => {
@@ -43,7 +43,7 @@ function sendPRIfNeed(pr, files, toBranch){
     console.log(res.url)
   }).catch( (e) => {
     console.error(e)
-    // process.exit(1) // TODO: 
+    // process.exit(1) 
   })
 }
 
