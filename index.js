@@ -2,8 +2,6 @@
 const axios = require("axios")
 const url = "https://raw.githubusercontent.com/inuscript/dogtag/master/tags.txt"
 
-module.exports.primary = [ "dog", "norfolkterrier" ]
-
 module.exports = function tags(){
   return axios(url).then(res => {
     return res.data.split("\n").filter( t => {
@@ -11,3 +9,5 @@ module.exports = function tags(){
     })
   })
 }
+
+module.exports.primary = [ "dog", "norfolkterrier" ]
