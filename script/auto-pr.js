@@ -43,7 +43,7 @@ function sendPRIfNeed(pr, files, toBranch){
     console.log(res.url)
   }).catch( (e) => {
     console.error(e)
-    process.exit(1)
+    // process.exit(1) // TODO: 
   })
 }
 
