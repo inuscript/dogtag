@@ -3,6 +3,7 @@ machine:
     version: 5.1.0
 test:
   post:
+    - npm run build
     - npm run auto-pr
 general:
   artifacts:
