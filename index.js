@@ -1,6 +1,6 @@
 "use strict"
-const axios = require("axios")
-const url = "https://raw.githubusercontent.com/inuscript/dogtag/master/tags.txt"
+var axios = require("axios")
+var url = "https://raw.githubusercontent.com/inuscript/dogtag/master/tags.txt"
 
 module.exports = function tags(){
   return axios(url).then(res => {
