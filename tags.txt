@@ -86,5 +86,5 @@ thatface
 topdogphoto
 weeklyfluff
 woof_tastic
- dogfeatures
- dog_features
+dogfeatures
+dog_features
