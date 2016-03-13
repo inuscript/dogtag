@@ -15,6 +15,7 @@ cutie
 dailydog
 dailyfluff
 dog_features
+dogfessional
 doggie
 doggy
 doglife
@@ -85,4 +86,3 @@ thatface
 topdogphoto
 weeklyfluff
 woof_tastic
-dogfessional
