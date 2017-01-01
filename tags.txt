@@ -1,3 +1,5 @@
+ dog_features
+ dogfeatures
 adorable
 animal
 animales
